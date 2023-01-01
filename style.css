@@ -1,0 +1,58 @@
+.Header {
+    width: 1500px;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap:wrap;
+    border: 4px solid green
+
+}
+
+.Links {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    border: 4px solid red
+}
+
+.Header_Logo {
+    color: #f9faf8;
+    font-size: 24px;
+    border:4px solid purple
+}
+
+.Header2
+{    
+    background-color: #1f2937;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    border: 4px solid blue
+    
+}
+
+.H2L,
+.H2R {
+    border: 4px solid red
+}
+
+.H2H {
+    color: #f9faf8;
+    font-weight:bolder;
+    font-size: 48px
+}
+
+.H2text {
+    color: #e5e7eb;
+    font-size: 18px
+}
+
+#Signup {
+    background-color: #3882F6
+}
+
+
