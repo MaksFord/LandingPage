@@ -1,5 +1,8 @@
 body {
     font-size: 18px;
+    margin:0;
+    padding:0;
+
 }
 .Header {
     background-color: #1f2937;
@@ -31,9 +34,11 @@ body {
 }
 
 .Header, .Header2 {
+    padding-top: 10px;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 50px;
+
 }
 
 .H2L,
@@ -61,8 +66,14 @@ body {
     background-color: #3882F6;
     border-radius: 6px;
     border:none;
-    padding: 8px 20px;
-    color:#e5e7eb
+    padding: 8px 30px;
+    color: #f9faf8;
+    font-weight:bold;
+}
+
+.white {
+    margin-top: 50px;
+    padding-bottom: 100px;
 }
 
 .Information {
@@ -76,30 +87,31 @@ body {
 .images {
     display:flex;
     justify-content: center;
-    align-items: center;
-    padding-top:50px;
-    padding-bottom: 100px;
+    flex-wrap: wrap;
+    padding:0;
+    gap: 40px;
+
 }
 
 .images li {
     list-style: none;
-    flex:1;
-    flex-wrap: wrap;
     display:flex;
-    justify-content: center;
-    flex-direction: column;
+    flex-direction:column;
+    flex-wrap:wrap;
     align-items: center;
+    width: 220px;
+    
 }
 
 .image {
-    width: 150px;
-    height:150px;
-    border-radius: 10px;
+    width: 200px;
+    height:200px;
+    border-radius: 15px;
+    margin:10px;
     border: 5px solid #3882F6;
 }
 .image-text{
-    width: 150px;
-    text-align:center;
+    text-align:center
 }
 
 .Quote {
@@ -119,13 +131,40 @@ body {
 
 .Qtext {
     font-style: italic;
+    font-weight: lighter;
     font-size: 36px;
 }
 .Qsign {
     font-weight: bold;
-    text-align: right;
-    
+    text-align: right;  
 }
+
+.bluebox {
+    margin: 100px 10%;
+    background-color: #3882F6;
+    display:flex;
+    justify-content: space-around;
+    padding: 50px;
+    border-radius: 20px;
+    color:#e5e7eb
+}
+
+.bluetitle {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: bold;
+}
+#Signup2 {
+    border: 2px solid #f9faf8
+}
+.footer{
+    background-color: #1f2937;
+    text-align:center;
+    color:#e5e7eb;
+    text-align:center;
+    padding:20px
+}
+
 
 
 
