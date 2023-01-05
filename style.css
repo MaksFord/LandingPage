@@ -1,27 +1,23 @@
+body {
+    font-size: 18px;
+}
 .Header {
-    width: 1500px;
     background-color: #1f2937;
     color: #e5e7eb;
-    font-size: 18px;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    flex-wrap:wrap;
-    border: 4px solid green
-
-}
+    }
 
 .Links {
-    display: flex;
+    display:flex;
     gap: 20px;
-    justify-content: flex-end;
-    border: 4px solid red
 }
 
 .Header_Logo {
     color: #f9faf8;
     font-size: 24px;
-    border:4px solid purple
 }
 
 .Header2
@@ -31,13 +27,22 @@
     justify-content:center;
     align-items:center;
     flex-wrap: wrap;
-    border: 4px solid blue
     
+}
+
+.Header, .Header2 {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
 }
 
 .H2L,
 .H2R {
-    border: 4px solid red
+    flex: 1 1 0;
+}
+
+.H2R img {
+    max-width: 100%;
 }
 
 .H2H {
@@ -48,11 +53,79 @@
 
 .H2text {
     color: #e5e7eb;
-    font-size: 18px
+    font-size: 18px;
+    margin-bottom:8px;
 }
 
-#Signup {
-    background-color: #3882F6
+#Signup, #Signup2 {
+    background-color: #3882F6;
+    border-radius: 6px;
+    border:none;
+    padding: 8px 20px;
+    color:#e5e7eb
 }
+
+.Information {
+    text-align:center;
+    padding: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937
+}
+
+.images {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:50px;
+    padding-bottom: 100px;
+}
+
+.images li {
+    list-style: none;
+    flex:1;
+    flex-wrap: wrap;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    width: 150px;
+    height:150px;
+    border-radius: 10px;
+    border: 5px solid #3882F6;
+}
+.image-text{
+    width: 150px;
+    text-align:center;
+}
+
+.Quote {
+    background-color: #e5e7eb;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top:100px;
+    padding-bottom:50px; 
+    display:flex;
+    justify-items: center;
+    align-items: center;
+}
+.Qcontainer {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.Qtext {
+    font-style: italic;
+    font-size: 36px;
+}
+.Qsign {
+    font-weight: bold;
+    text-align: right;
+    
+}
+
 
 
